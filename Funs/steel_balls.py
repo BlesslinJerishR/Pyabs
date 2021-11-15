@@ -3,20 +3,25 @@ import random
 
 def balls(ball):
     if ball == 1:
-        return "It is certain"
+        return "Seri, certain"
     elif ball == 2:
-        return "It is lighta"
+        return "Seri, lighta"
     elif ball == 3:
-        return "It is vaipu iruku"
+        return "Seri, vaipu iruku"
     elif ball == 4:
-        return "It is pakalam"
+        return "Seri, pakalam"
     elif ball == 5:
-        return "It is solren"
+        return "Seri, solren"
     elif ball == 6:
-        return "It is apdiaa"
+        return "Seri, apdiaa"
     elif ball == 7:
-        return "It is seri"
+        return "Seri, seri"
     elif ball == 8:
-        return "It is kekren"
+        return "Seri, kekren"
     elif ball == 9:
-        return "It is vaipilla raja"
+        return "Seri, vaipilla raja"
+
+
+r = random.randint(1, 9)
+fortune = balls(r)
+print(fortune)
